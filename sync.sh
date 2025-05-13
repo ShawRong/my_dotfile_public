@@ -15,6 +15,7 @@ typeset -A CONFIG_MAP=(
     ["$HOME/Documents/obsidian-library/October/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
     ["$HOME/Documents/obsidian-library/academic/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
     ["$HOME/Documents/obsidian-library/tmp/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
+    ["$HOME/Documents/obsidian-library/book/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
 )
 
 # Colors for better output
