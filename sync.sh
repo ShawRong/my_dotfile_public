@@ -12,6 +12,9 @@ local WORK_DIR="/tmp/dotfiles_temp_$(date +%s)"  # Add timestamp to avoid confli
 typeset -A CONFIG_MAP=(
     ["$HOME/.zshrc"]=".zshrc"        
     ["$HOME/.config/nvim"]=".config/nvim"  # Now points to the whole nvim dir
+    ["$HOME/Documents/obsidian-library/October/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
+    ["$HOME/Documents/obsidian-library/academic/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
+    ["$HOME/Documents/obsidian-library/tmp/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
 )
 
 # Colors for better output
