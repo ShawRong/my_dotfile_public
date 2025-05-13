@@ -2,6 +2,7 @@
 set -e
 set -o pipefail
 
+./upload.sh
 # Configuration
 local REPO_URL="https://github.com/ShawRong/my_dotfile_public.git"
 local WORK_DIR="/tmp/dotfiles_temp_$(date +%s)"  # Add timestamp to avoid conflicts
