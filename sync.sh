@@ -10,7 +10,7 @@ local WORK_DIR="/tmp/dotfiles_temp_$(date +%s)"  # Add timestamp to avoid confli
 # Key is the TARGET path, value is the SOURCE path in the repo
 typeset -A CONFIG_MAP=(
     ["$HOME/.zshrc"]=".zshrc"        
-    ["$HOME/.config/nvim"]=".config/nvim/nvim"  # Now points to the whole nvim dir
+    ["$HOME/.config/nvim"]=".config/nvim"  # Now points to the whole nvim dir
 )
 
 # Colors for better output
