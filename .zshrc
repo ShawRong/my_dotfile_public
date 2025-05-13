@@ -45,7 +45,7 @@ export VISUAL=nvim
 alias ll='ls -lah'
 alias grep='grep --color=auto'
 alias zrc="$EDITOR $HOME/.zshrc"
-alias scrc="source $HOME/.zshrc"
+alias sc="source $HOME/.zshrc"
 alias pip='pip3'
 alias python='python3'
 alias lvim="nvim -u ~/.config/nvim/latex.lua"
