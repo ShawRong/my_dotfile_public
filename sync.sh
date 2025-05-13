@@ -7,9 +7,10 @@ local REPO_URL="https://github.com/ShawRong/my_dotfile_public.git"
 local WORK_DIR="/tmp/dotfiles_temp_$(date +%s)"  # Add timestamp to avoid conflicts
 
 # Associative array for source → target mapping
+# Key is the TARGET path, value is the SOURCE path in the repo
 typeset -A CONFIG_MAP=(
     ["$HOME/.zshrc"]=".zshrc"        
-    ["$HOME/.config/nvim"]=".config/nvim/nvim"    
+    ["$HOME/.config/nvim"]=".config/nvim/nvim"  # Now points to the whole nvim dir
 )
 
 # Colors for better output
@@ -67,7 +68,7 @@ for target in "${(@k)CONFIG_MAP}"; do
 done
 
 # 3. Cleanup
-echo "${GREEN}[3/3]${RESET} Cleaning up..."
-rm -rf "$WORK_DIR" || echo "${YELLOW}Warning: Failed to clean up $WORK_DIR${RESET}"
+#echo "${GREEN}[3/3]${RESET} Cleaning up..."
+#rm -rf "$WORK_DIR" || echo "${YELLOW}Warning: Failed to clean up $WORK_DIR${RESET}"
 
-echo "${GREEN}Done! Dotfiles deployed successfully.${RESET}"
+#echo "${GREEN}Done! Dotfiles deployed successfully.${RESET}"
