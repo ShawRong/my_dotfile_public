@@ -8,8 +8,3 @@ cp ~/.zshrc .zshrc
 cp -r ~/.config/nvim .config/nvim
 cp -r ~/Documents/obsidian-library/October/.obsidian .obsidian
 
-# 显示变更
-git add .
-git commit -m 'auto collect.'
-git push
-git status
