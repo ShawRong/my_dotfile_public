@@ -37,52 +37,6 @@ export VISUAL=nvim
 # FUCTIONS #
 ############
 
-# This is for wsl. It echos the ip of the windows host.
-function hostip_wsl {
-	host_ip=$(cat /etc/resolv.conf | grep "nameserver" | cut -f 2 -d " ")
-	echo $host_ip
-}
-
-# This is for change the zsh proxy anytime you need.
-function proxy {
-	if [[ $# -ne 2 ]]; then
-		echo "need ip and port" ; return
-	fi
-	#proxy ip and port	
-	ip=$1 
-	port=$2
-
-	export http_proxy="http://$ip:$port"
-	export https_proxy="http://$ip:$port"
-	echo "$ip:$port"
-}
-
-function unproxy() {
-	unset http_proxy
-	unset https_proxy
-	echo "HTTP Proxy unseted"
-}
-
-# This is for synchronizing dot rc file to github. 
-function syncdotrc {
-	source_dir="$HOME"
-	des_dir="$HOME/myrc"
-
-	if [ ! -d "$des_dir" ]; then
-		mkdir -p "$des_dir"
-	fi
-
-	find "$source_dir" -type f -name '.*rc' -exec cp {} "$des_dir"	\;
-
-	cd "$des_dir"
-
-	git add .
-	git commit -m "Sync dot rc file to GitHub"
-	git push origin main
-}
-
-
-
 
 ###########
 # Aliases #
@@ -92,18 +46,13 @@ alias ll='ls -lah'
 alias grep='grep --color=auto'
 alias zrc="$EDITOR $HOME/.zshrc"
 alias scrc="source $HOME/.zshrc"
-#alias pp="proxy $(hostip_wsl) 7890"
-alias sync="syncdotrc"
-alias px="proxychains4"
-#alias updateapt="sudo apt update && sudo apt updgrade"
-#alias
 alias pip='pip3'
 alias python='python3'
 alias lvim="nvim -u ~/.config/nvim/latex.lua"
 alias sourcers="source ~/.zshrc"
 alias vim="nvim"
-alias changerc='vim ~/.zshrc'
 alias vscode="code --reuse-window"
+alias to_dotfile='cd ~/Desktop/dotfiles'
 
 # this is for temporal using, for hkust cse2 lab only.
 alias logincse='ssh msbd5009stu22@csl2wk22.cse.ust.hk'
