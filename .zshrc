@@ -56,9 +56,15 @@ alias todotfile='cd ~/Desktop/dotfiles'
 
 alias yabai='yabai --start-service'
 alias restart_yabai='yabai --restart-service'
-alias stop_yabai=' yabai --stop-service '
+alias stop_yabai='yabai --stop-service '
+alias yabai_config_load='sh ~/.yabairc'
+
+alias skhd='skhd --start-service'
+alias restart_skhd='skhd --restart-service'
+alias stop_skhd='skhd--stop-service '
 # this is for temporal using, for hkust cse2 lab only.
 alias logincse='ssh msbd5009stu22@csl2wk22.cse.ust.hk'
+
 ########################
 # Prompt customization #
 ########################
