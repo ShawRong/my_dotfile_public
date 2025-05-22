@@ -52,11 +52,11 @@ alias lvim="nvim -u ~/.config/nvim/latex.lua"
 alias sourcers="source ~/.zshrc"
 alias vim="nvim"
 alias vscode="code --reuse-window"
-alias to_dotfile='cd ~/Desktop/dotfiles'
+alias todotfile='cd ~/Desktop/dotfiles'
 
-alias yabai_start='yabai --start-service'
-alias yabai_restart='yabai --restart-service'
-alias yabai_stop='yabai --stop-server'
+alias yabaistart='brew services start yabai'
+alias yabairestart='brew services restart yabai'
+alias yabaistop='brew services stop yabai'
 # this is for temporal using, for hkust cse2 lab only.
 alias logincse='ssh msbd5009stu22@csl2wk22.cse.ust.hk'
 ########################
