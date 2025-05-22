@@ -44,7 +44,7 @@ export VISUAL=nvim
 
 alias ll='ls -lah'
 alias grep='grep --color=auto'
-alias zrc="$EDITOR $HOME/.zshrc"
+alias editrc="$EDITOR $HOME/.zshrc"
 alias sc="source $HOME/.zshrc"
 alias pip='pip3'
 alias python='python3'
@@ -54,6 +54,9 @@ alias vim="nvim"
 alias vscode="code --reuse-window"
 alias to_dotfile='cd ~/Desktop/dotfiles'
 
+alias yabai='yabai start_server'
+alias yabai='yabai restart_server'
+alias yabai='yabai end_server'
 # this is for temporal using, for hkust cse2 lab only.
 alias logincse='ssh msbd5009stu22@csl2wk22.cse.ust.hk'
 ########################
