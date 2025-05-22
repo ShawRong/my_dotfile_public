@@ -54,7 +54,7 @@ alias vim="nvim"
 alias vscode="code --reuse-window"
 alias todotfile='cd ~/Desktop/dotfiles'
 
-alias yabaistart='brew services start yabai'
+alias yabaistart='yabai --start-service'
 alias yabairestart='brew services restart yabai'
 alias yabaistop='brew services stop yabai'
 # this is for temporal using, for hkust cse2 lab only.
