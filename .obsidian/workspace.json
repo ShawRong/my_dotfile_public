@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "86600a410a4bb6f0",
+        "id": "8113561341090038",
         "type": "tabs",
         "children": [
           {
-            "id": "155ee47534355fbe",
+            "id": "6a521be5df5377ba",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Vim实用技巧（第2版）.pdf"
+                "file": "blog/Tmux-Memo.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Vim实用技巧（第2版）"
+              "icon": "lucide-file",
+              "title": "Tmux-Memo"
             }
           }
         ]
@@ -176,11 +178,21 @@
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "hugo-publish:hugo sync": false,
+      "hugo-sync:Sync to Hugo": false
     }
   },
-  "active": "155ee47534355fbe",
+  "active": "6a521be5df5377ba",
   "lastOpenFiles": [
+    "blog/Lazyvim-Memo.md",
+    "blog/Iterm-Memo.md",
+    "blog/Yabai-Memo.md",
+    "blog/Vscode-Memo.md",
+    "blog/Tmux-Memo.md",
+    "blog/lazyvim.md",
+    "blog/rust env install.md",
+    "blog/yabai.md",
     "欢迎.md",
     "Vim实用技巧（第2版）.pdf"
   ]

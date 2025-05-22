@@ -44,7 +44,6 @@ export VISUAL=nvim
 
 alias ll='ls -lah'
 alias grep='grep --color=auto'
-alias editrc="$EDITOR $HOME/.zshrc"
 alias sc="source $HOME/.zshrc"
 alias pip='pip3'
 alias python='python3'
@@ -63,8 +62,15 @@ alias skhd='skhd --start-service'
 alias restart_skhd='skhd --restart-service'
 alias stop_skhd='skhd--stop-service '
 alias desktop='cd ~/Desktop'
+alias blog='cd ~/Desktop/blog/ShawRong.github.io/content/posts'
+alias bblog='cd ~/Desktop/blog/ShawRong.github.io/'
 # this is for temporal using, for hkust cse2 lab only.
 alias logincse='ssh msbd5009stu22@csl2wk22.cse.ust.hk'
+
+alias pushblog="~/Desktop/blog/ShawRong.github.io/upload.sh"
+alias crc="$EDITOR ~/Desktop/dotfiles/.zshrc"
+alias sync="~/Desktop/dotfiles/sync.sh & source ~/.zshrc"
+alias aloha="echo 'Hello, version 0.1'"
 
 ########################
 # Prompt customization #

@@ -2,22 +2,23 @@
 set -e
 set -o pipefail
 
-./upload.sh
 # Configuration
-local REPO_URL="https://github.com/ShawRong/my_dotfile_public.git"
-local WORK_DIR="$HOME/Desktop/tmp/dotfiles_temp_$(date +%s)"  # Add timestamp to avoid conflicts
+local REPO_DIR="${0:a:h}"  # Get the directory where this script is located
+local WORK_DIR="$PWD"      # Current working directory
 
 # Associative array for source → target mapping
-# Key is the TARGET path, value is the SOURCE path in the repo
+# Key is the TARGET path, value is the SOURCE path relative to the repo
 typeset -A CONFIG_MAP=(
     ["$HOME/.zshrc"]=".zshrc"        
-    ["$HOME/.config/nvim"]=".config/nvim"  # Now points to the whole nvim dir
-    #["$HOME/.config/raycast"]=".config/raycast"  # Now points to the whole nvim dir
-    #["$HOME/.config/karabiner"]=".config/karabiner"  # Now points to the whole nvim dir
-    #["$HOME/Documents/obsidian-library/October/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
-    #["$HOME/Documents/obsidian-library/academic/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
-    #["$HOME/Documents/obsidian-library/tmp/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
-    #["$HOME/Documents/obsidian-library/book/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
+    ["$HOME/.config/nvim"]=".config/nvim"
+
+    ["$HOME/.config/raycast"]=".config/raycast"  # Now points to the whole nvim dir
+    ["$HOME/.config/karabiner"]=".config/karabiner"  # Now points to the whole nvim dir
+    ["$HOME/Documents/obsidian-library/October/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
+    ["$HOME/Documents/obsidian-library/academic/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
+    ["$HOME/Documents/obsidian-library/tmp/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
+    ["$HOME/Documents/obsidian-library/book/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
+    # Add other mappings as needed
 )
 
 # Colors for better output
@@ -27,20 +28,8 @@ local YELLOW=$fg[yellow]
 local RED=$fg[red]
 local RESET=$reset_color
 
-# 1. Clone the repository
-echo "${GREEN}[1/3]${RESET} Downloading dotfiles..."
-mkdir -p "$WORK_DIR" && cd "$WORK_DIR"
-
-if ! git clone --depth 1 "$REPO_URL" "$WORK_DIR/repo"; then
-    echo "${RED}Error: Failed to clone repository${RESET}"
-    rm -rf "$WORK_DIR"
-    exit 1
-fi
-
-local REPO_DIR="$WORK_DIR/repo"
-
-# 2. Backup and create symlinks
-echo "${GREEN}[2/3]${RESET} Deploying dotfiles..."
+# Deploy dotfiles
+echo "${GREEN}[1/1]${RESET} Deploying dotfiles..."
 for target in "${(@k)CONFIG_MAP}"; do
     local source="$REPO_DIR/${CONFIG_MAP[$target]}"
     
@@ -74,8 +63,4 @@ for target in "${(@k)CONFIG_MAP}"; do
     fi
 done
 
-# 3. Cleanup
-#echo "${GREEN}[3/3]${RESET} Cleaning up..."
-#rm -rf "$WORK_DIR" || echo "${YELLOW}Warning: Failed to clean up $WORK_DIR${RESET}"
-
-#echo "${GREEN}Done! Dotfiles deployed successfully.${RESET}"
+echo "${GREEN}Done! Dotfiles deployed successfully.${RESET}"
