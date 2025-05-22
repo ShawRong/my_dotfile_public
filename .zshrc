@@ -54,9 +54,9 @@ alias vim="nvim"
 alias vscode="code --reuse-window"
 alias to_dotfile='cd ~/Desktop/dotfiles'
 
-alias yabai_start='yabai start service'
-alias yabai_restart='yabai restart service'
-alias yabai_stop='yabai stop server'
+alias yabai_start='yabai --start-service'
+alias yabai_restart='yabai --restart-service'
+alias yabai_stop='yabai --stop-server'
 # this is for temporal using, for hkust cse2 lab only.
 alias logincse='ssh msbd5009stu22@csl2wk22.cse.ust.hk'
 ########################
