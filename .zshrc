@@ -62,6 +62,7 @@ alias yabai_config_load='sh ~/.yabairc'
 alias skhd='skhd --start-service'
 alias restart_skhd='skhd --restart-service'
 alias stop_skhd='skhd--stop-service '
+alias desktop='cd ~/Desktop'
 # this is for temporal using, for hkust cse2 lab only.
 alias logincse='ssh msbd5009stu22@csl2wk22.cse.ust.hk'
 
