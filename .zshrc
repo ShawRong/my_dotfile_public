@@ -76,7 +76,7 @@ alias pushblog="pushd && cd ~/Desktop/blog/ShawRong.github.io && ./upload.sh && 
 # this is for temporal using, for hkust cse2 lab only.
 alias logincse='ssh msbd5009stu22@csl2wk22.cse.ust.hk'
 
-alias sync="~/Desktop/dotfiles/upload.sh & ~/Desktop/dotfiles/sync.sh & source ~/.zshrc & sh ~/.config/.yabairc"
+alias sync="~/Desktop/dotfiles/upload.sh & ~/Desktop/dotfiles/sync.sh & source ~/.zshrc & sh ~/.yabairc"
 alias crc="$EDITOR ~/Desktop/dotfiles/.zshrc && sync"
 alias aloha="echo 'Hello, version 0.11'"
 
