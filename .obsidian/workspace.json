@@ -11,10 +11,14 @@
             "id": "606cab0c0287f659",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "blog/COMP6211J Memo.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "COMP6211J Memo"
             }
           }
         ]
@@ -181,6 +185,7 @@
   },
   "active": "606cab0c0287f659",
   "lastOpenFiles": [
+    "blog/COMP6211J Memo.md",
     "blog/DPU Memo.md",
     "blog/Iterm-Memo.md",
     "blog/Algorithm Thought.md",
@@ -215,7 +220,6 @@
     "blog/Zathura.md",
     "blog/Tmux-Memo.md",
     "blog/Vscode-Memo.md",
-    "blog/lazyvim.md",
-    "blog/rust env install.md"
+    "blog/lazyvim.md"
   ]
 }
