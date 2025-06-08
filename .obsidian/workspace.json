@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8113561341090038",
+        "id": "ae5259be11609681",
         "type": "tabs",
         "children": [
           {
-            "id": "6a521be5df5377ba",
+            "id": "606cab0c0287f659",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blog/Tmux-Memo.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Tmux-Memo"
+              "title": "新标签页"
             }
           }
         ]
@@ -94,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "5009  Memo/OpenMP Memo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "OpenMP Memo 的反向链接列表"
             }
           },
           {
@@ -179,21 +176,46 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "hugo-publish:hugo sync": false,
       "hugo-sync:Sync to Hugo": false
     }
   },
-  "active": "6a521be5df5377ba",
+  "active": "606cab0c0287f659",
   "lastOpenFiles": [
-    "blog/Lazyvim-Memo.md",
+    "blog/DPU Memo.md",
     "blog/Iterm-Memo.md",
+    "blog/Algorithm Thought.md",
+    "blog/Algorithm Template.md",
+    "blog/CSAPP Memo.md",
+    "leetcode/leetcode  python常用语法.md",
+    "blog/Python CookBook memo 2.md",
+    "blog/Leetcode Memo.md",
     "blog/Yabai-Memo.md",
-    "blog/Vscode-Memo.md",
+    "blog/Rust Memo.md",
+    "5007 Memo/Ch3_UnconsSmoothOpt (1).pdf",
+    "5009  Memo/Pthread Memo.md",
+    "5009  Memo/OpenMP Memo.md",
+    "5009  Memo/MPI Memo.md",
+    "5009  Memo/Cuda Memo.md",
+    "5009  Memo/Code Memo.md",
+    "5009 exam/Assignment1(MPI)-2.pdf",
+    "5009 exam/2022FallFinalSolution.pdf",
+    "5009 exam/FinalSOL_0521_DSAA5015MSBD5009FinalSpring2023.pdf",
+    "5009 ppt/cuda_programming_model.pdf",
+    "5009 ppt/cuda_c_extensions.pdf",
+    "5009 ppt/nbodyCUDA 1.pdf",
+    "5009 pdf/ch6.pdf",
+    "5009 pdf/ch7.pdf",
+    "5009 ppt/gpu_architecture.pdf",
+    "5009  Memo/write.md",
+    "未命名.md",
+    "未命名 3.md",
+    "未命名 2.md",
+    "未命名 1.md",
+    "blog/Lazyvim-Memo.md",
+    "blog/Zathura.md",
     "blog/Tmux-Memo.md",
+    "blog/Vscode-Memo.md",
     "blog/lazyvim.md",
-    "blog/rust env install.md",
-    "blog/yabai.md",
-    "欢迎.md",
-    "Vim实用技巧（第2版）.pdf"
+    "blog/rust env install.md"
   ]
 }

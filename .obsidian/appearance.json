@@ -1,5 +1,8 @@
 {
   "accentColor": "",
   "baseFontSize": 17,
-  "theme": "system"
+  "theme": "system",
+  "textFontFamily": "Hack Nerd Font Mono",
+  "monospaceFontFamily": "Hack Nerd Font Mono",
+  "showRibbon": true
 }

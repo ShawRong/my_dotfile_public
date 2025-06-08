@@ -10,10 +10,13 @@ local WORK_DIR="$PWD"      # Current working directory
 # Key is the TARGET path, value is the SOURCE path relative to the repo
 typeset -A CONFIG_MAP=(
     ["$HOME/.zshrc"]=".zshrc"        
+    ["$HOME/.zsh"]=".zsh"        
     ["$HOME/.config/nvim"]=".config/nvim"
 
+    ["$HOME/.yabairc"]=".config/.yabairc"
     ["$HOME/.config/raycast"]=".config/raycast"  # Now points to the whole nvim dir
     ["$HOME/.config/karabiner"]=".config/karabiner"  # Now points to the whole nvim dir
+    ["$HOME/.config/zathura"]=".config/zathura"  # Now points to the whole nvim dir
     ["$HOME/Documents/obsidian-library/October/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
     ["$HOME/Documents/obsidian-library/academic/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
     ["$HOME/Documents/obsidian-library/tmp/.obsidian"]=".obsidian"  # Now points to the whole nvim dir
