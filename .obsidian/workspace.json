@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ae5259be11609681",
+        "id": "1f43faa2aabb568b",
         "type": "tabs",
         "children": [
           {
-            "id": "606cab0c0287f659",
+            "id": "d5f708ee03be50c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "blog/COMP6211J Memo.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "COMP6211J Memo"
+              "title": "新标签页"
             }
           }
         ]
@@ -183,13 +179,22 @@
       "hugo-sync:Sync to Hugo": false
     }
   },
-  "active": "606cab0c0287f659",
+  "active": "d5f708ee03be50c0",
   "lastOpenFiles": [
+    "blog/Information Theory.md",
+    "blog/attachments/bcf6f08053ba68cf43e0d667b28b360a.png",
+    "blog/attachments",
+    "ebook/information theory.pdf",
+    "blog/Algorithm Template.md",
+    "ebook/Programming Massively Parallel Processors.pdf",
+    "blog/dpu hackathon description.md",
+    "blog/Cuda Template.md",
+    "ebook/大模型基础 完整版.pdf",
     "blog/COMP6211J Memo.md",
+    "ebook",
     "blog/DPU Memo.md",
     "blog/Iterm-Memo.md",
     "blog/Algorithm Thought.md",
-    "blog/Algorithm Template.md",
     "blog/CSAPP Memo.md",
     "leetcode/leetcode  python常用语法.md",
     "blog/Python CookBook memo 2.md",
@@ -206,20 +211,11 @@
     "5009 exam/2022FallFinalSolution.pdf",
     "5009 exam/FinalSOL_0521_DSAA5015MSBD5009FinalSpring2023.pdf",
     "5009 ppt/cuda_programming_model.pdf",
-    "5009 ppt/cuda_c_extensions.pdf",
-    "5009 ppt/nbodyCUDA 1.pdf",
-    "5009 pdf/ch6.pdf",
-    "5009 pdf/ch7.pdf",
-    "5009 ppt/gpu_architecture.pdf",
     "5009  Memo/write.md",
     "未命名.md",
     "未命名 3.md",
     "未命名 2.md",
     "未命名 1.md",
-    "blog/Lazyvim-Memo.md",
-    "blog/Zathura.md",
-    "blog/Tmux-Memo.md",
-    "blog/Vscode-Memo.md",
-    "blog/lazyvim.md"
+    "blog/Lazyvim-Memo.md"
   ]
 }
