@@ -61,5 +61,6 @@ yabai -m rule --add app="Spotify" manage=off
 yabai -m rule --add app="Raycast" manage=off
 yabai -m rule --add app="Finder" manage=off
 yabai -m rule --add app="Quantumult X" manage=off
+yabai -m rule --add app="System Settings" manage=off
 
 echo "yabai configuration loaded.."

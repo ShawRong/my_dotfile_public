@@ -75,6 +75,7 @@ alias pushblog="pushd && cd ~/Desktop/blog/ShawRong.github.io && ./upload.sh && 
 
 # this is for temporal using, for hkust cse2 lab only.
 alias logincse='ssh msbd5009stu22@csl2wk22.cse.ust.hk'
+alias loginvps='ssh root@10.179.2.66'
 
 alias sync="~/Desktop/dotfiles/upload.sh & ~/Desktop/dotfiles/sync.sh & source ~/.zshrc & sh ~/.yabairc"
 alias crc="$EDITOR ~/Desktop/dotfiles/.zshrc && sync"
@@ -183,5 +184,3 @@ alias ls='ls --color=auto'
 export LS_COLORS='di=34:fi=0:ln=36:pi=33:so=35:bd=32;33:cd=32;33:or=31;1;33:mi=31:ex=32;1:*.tar=31;1:*.gz=31;1:*.zip=31;1'
 
 
-#auto start
-tmux

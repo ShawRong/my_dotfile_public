@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1f43faa2aabb568b",
+        "id": "116a178789aed941",
         "type": "tabs",
         "children": [
           {
-            "id": "d5f708ee03be50c0",
+            "id": "24da78e25bc634ea",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Attention.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Attention"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "99062ab6b68e9687",
@@ -179,23 +184,33 @@
       "hugo-sync:Sync to Hugo": false
     }
   },
-  "active": "d5f708ee03be50c0",
+  "active": "24da78e25bc634ea",
   "lastOpenFiles": [
+    "Attention.md",
+    "cuda 面试/面试题目收集.md",
+    "5009  Memo/Cuda Memo.md",
+    "cuda 面试",
+    "blog/Cuda Template.md",
+    "blog/CSAPP Memo.md",
+    "blog/dpu hackathon description.md",
+    "blog/DPU Memo.md",
+    "blog/nvidia things.md",
+    "blog/Lazyvim-Memo.md",
+    "blog/Iterm-Memo.md",
     "blog/Information Theory.md",
+    "blog/COMP6211J Memo.md",
+    "5009 pdf/ch6.pdf",
+    "5009 pdf/ch5.pdf",
+    "5009 pdf/ch7.pdf",
+    "blog/未命名.md",
     "blog/attachments/bcf6f08053ba68cf43e0d667b28b360a.png",
     "blog/attachments",
     "ebook/information theory.pdf",
     "blog/Algorithm Template.md",
     "ebook/Programming Massively Parallel Processors.pdf",
-    "blog/dpu hackathon description.md",
-    "blog/Cuda Template.md",
     "ebook/大模型基础 完整版.pdf",
-    "blog/COMP6211J Memo.md",
     "ebook",
-    "blog/DPU Memo.md",
-    "blog/Iterm-Memo.md",
     "blog/Algorithm Thought.md",
-    "blog/CSAPP Memo.md",
     "leetcode/leetcode  python常用语法.md",
     "blog/Python CookBook memo 2.md",
     "blog/Leetcode Memo.md",
@@ -205,17 +220,8 @@
     "5009  Memo/Pthread Memo.md",
     "5009  Memo/OpenMP Memo.md",
     "5009  Memo/MPI Memo.md",
-    "5009  Memo/Cuda Memo.md",
     "5009  Memo/Code Memo.md",
-    "5009 exam/Assignment1(MPI)-2.pdf",
-    "5009 exam/2022FallFinalSolution.pdf",
-    "5009 exam/FinalSOL_0521_DSAA5015MSBD5009FinalSpring2023.pdf",
-    "5009 ppt/cuda_programming_model.pdf",
     "5009  Memo/write.md",
-    "未命名.md",
-    "未命名 3.md",
-    "未命名 2.md",
-    "未命名 1.md",
-    "blog/Lazyvim-Memo.md"
+    "未命名.md"
   ]
 }
