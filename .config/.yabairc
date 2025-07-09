@@ -63,5 +63,6 @@ yabai -m rule --add app="Finder" manage=off
 yabai -m rule --add app="Quantumult X" manage=off
 yabai -m rule --add app="System Settings" manage=off
 yabai -m rule --add app="Microsoft To Do" manage=off
+yabai -m rule --add app="Music" manage=off
 
 echo "yabai configuration loaded.."
