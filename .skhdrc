@@ -183,3 +183,4 @@ alt - p : yabai -m window --toggle pip
 
 # open mpv
 #cmd - m : open -na /Applications/mpv.app $(pbpaste)
+#test
