@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "116a178789aed941",
+        "id": "40f16a273a0f3832",
         "type": "tabs",
         "children": [
           {
-            "id": "24da78e25bc634ea",
+            "id": "b148b83bad02a7c1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Attention.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Attention"
+              "title": "新标签页"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "99062ab6b68e9687",
@@ -184,44 +179,45 @@
       "hugo-sync:Sync to Hugo": false
     }
   },
-  "active": "24da78e25bc634ea",
+  "active": "b148b83bad02a7c1",
   "lastOpenFiles": [
-    "Attention.md",
-    "cuda 面试/面试题目收集.md",
-    "5009  Memo/Cuda Memo.md",
-    "cuda 面试",
+    "blog/yabai short key setting.md",
+    "blog/albert feature.md",
+    "blog/Bert CLS token Study Notes.md",
+    "blog/What's Contextual Attention.md",
+    "blog/Contextual Embedding.md",
+    "blog/Transformer Architecture Study Notes.md",
+    "blog/Scaling Laws.md",
+    "blog/Transformer Hidden Size - Quick Notes.md",
+    "blog/Cross Entropy Loss.md",
+    "ebook/大模型基础 完整版.pdf",
+    "blog/未命名",
+    "ebook/information theory.pdf",
+    "ebook/Programming Massively Parallel Processors.pdf",
+    "blog/MUSTAFAR Blog.md",
+    "blog/MUSTAFAR New Pruning Score.md",
+    "blog/Inference Process in Code.md",
+    "blog/Inference Process.md",
+    "blog/Two Aspects of Pruning.md",
+    "blog/Sparsity.md",
+    "blog/Algorithm Template.md",
+    "blog/Algorithm Thought.md",
+    "blog/Zathura.md",
     "blog/Cuda Template.md",
-    "blog/CSAPP Memo.md",
-    "blog/dpu hackathon description.md",
-    "blog/DPU Memo.md",
-    "blog/nvidia things.md",
-    "blog/Lazyvim-Memo.md",
-    "blog/Iterm-Memo.md",
-    "blog/Information Theory.md",
-    "blog/COMP6211J Memo.md",
+    "blog/Vscode-Memo.md",
+    "cuda 面试/面试题目收集.md",
+    "5002 memo data warehouse.md",
+    "Pasted image 20250518121419.png",
+    "test sync.md",
+    "Attention.md",
+    "未命名.md",
+    "未命名 3.md",
+    "cuda 面试",
     "5009 pdf/ch6.pdf",
     "5009 pdf/ch5.pdf",
     "5009 pdf/ch7.pdf",
-    "blog/未命名.md",
     "blog/attachments/bcf6f08053ba68cf43e0d667b28b360a.png",
     "blog/attachments",
-    "ebook/information theory.pdf",
-    "blog/Algorithm Template.md",
-    "ebook/Programming Massively Parallel Processors.pdf",
-    "ebook/大模型基础 完整版.pdf",
-    "ebook",
-    "blog/Algorithm Thought.md",
-    "leetcode/leetcode  python常用语法.md",
-    "blog/Python CookBook memo 2.md",
-    "blog/Leetcode Memo.md",
-    "blog/Yabai-Memo.md",
-    "blog/Rust Memo.md",
-    "5007 Memo/Ch3_UnconsSmoothOpt (1).pdf",
-    "5009  Memo/Pthread Memo.md",
-    "5009  Memo/OpenMP Memo.md",
-    "5009  Memo/MPI Memo.md",
-    "5009  Memo/Code Memo.md",
-    "5009  Memo/write.md",
-    "未命名.md"
+    "ebook"
   ]
 }
