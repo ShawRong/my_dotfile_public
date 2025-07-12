@@ -188,3 +188,4 @@ export LS_COLORS='di=34:fi=0:ln=36:pi=33:so=35:bd=32;33:cd=32;33:or=31;1;33:mi=3
 
 
 tmux
+skhd --start-service
