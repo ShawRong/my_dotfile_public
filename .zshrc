@@ -89,6 +89,10 @@ alias vs="tmux split-window -v"
 alias hs="tmux split-window -h"
 alias xx="tmux kill-pane"
 alias temp='cd ~/Desktop/temp'
+alias ss1='scp "srongaa@superpod.ust.hk:/home/srongaa/stable-weight-decay-regularization/Test_*" ./50epoch/'
+alias ss2='scp "srongaa@superpod.ust.hk:/home/srongaa/stable-weight-decay-regularization/Curves_*" ./50epoch/'
+alias ss3='scp "srongaa@superpod.ust.hk:/home/srongaa/stable-weight-decay-regularization/Train_*" ./50epoch/'
+alias ss3='ss1 ; ss2; ss3'
 
 
 ## alias max tex commands

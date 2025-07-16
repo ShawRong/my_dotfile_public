@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "40f16a273a0f3832",
+        "id": "6b5c15de0589e93f",
         "type": "tabs",
         "children": [
           {
-            "id": "b148b83bad02a7c1",
+            "id": "38d8d518ae5118af",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "blog/Study Research Note.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Study Research Note"
             }
           }
         ]
@@ -179,8 +183,18 @@
       "hugo-sync:Sync to Hugo": false
     }
   },
-  "active": "b148b83bad02a7c1",
+  "active": "38d8d518ae5118af",
   "lastOpenFiles": [
+    "blog/Read TODO.md",
+    "blog/Study Research Note.md",
+    "blog/OBD Note (not work).md",
+    "blog/Nvidia Blackwell UMMA Architecture Guide - Part One.md",
+    "blog/ML Quantization & Optimization Notes.md",
+    "blog/Blackwell Note.md",
+    "blog/Black well note claude 2.md",
+    "blog/Idea.md",
+    "blog/Idea 1.md",
+    "blog/Idea2.md",
     "blog/yabai short key setting.md",
     "blog/albert feature.md",
     "blog/Bert CLS token Study Notes.md",
@@ -201,17 +215,7 @@
     "blog/Two Aspects of Pruning.md",
     "blog/Sparsity.md",
     "blog/Algorithm Template.md",
-    "blog/Algorithm Thought.md",
-    "blog/Zathura.md",
-    "blog/Cuda Template.md",
-    "blog/Vscode-Memo.md",
-    "cuda 面试/面试题目收集.md",
-    "5002 memo data warehouse.md",
     "Pasted image 20250518121419.png",
-    "test sync.md",
-    "Attention.md",
-    "未命名.md",
-    "未命名 3.md",
     "cuda 面试",
     "5009 pdf/ch6.pdf",
     "5009 pdf/ch5.pdf",
