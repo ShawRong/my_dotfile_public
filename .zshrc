@@ -52,7 +52,7 @@ alias ll='ls -lah'
 alias grep='grep --color=auto'
 alias sc="source $HOME/.zshrc"
 alias pip='pip3'
-alias python='python3'
+#alias python='python3'
 alias lvim="nvim -u ~/.config/nvim/latex.lua"
 alias sourcers="source ~/.zshrc"
 alias vim="nvim"
@@ -91,8 +91,10 @@ alias xx="tmux kill-pane"
 alias temp='cd ~/Desktop/temp'
 alias ss1='scp "srongaa@superpod.ust.hk:/home/srongaa/stable-weight-decay-regularization/Test_*" ./50epoch/'
 alias ss2='scp "srongaa@superpod.ust.hk:/home/srongaa/stable-weight-decay-regularization/Curves_*" ./50epoch/'
-alias ss3='scp "srongaa@superpod.ust.hk:/home/srongaa/stable-weight-decay-regularization/Train_*" ./50epoch/'
-alias ss3='ss1 ; ss2; ss3'
+alias ss3='scp "srongaa@superpod.ust.hk:/home/srongaa/stable-weight-decay-regularization/Training_*" ./50epoch/'
+alias ss='ss1 ; ss2; ss3'
+alias ss4='scp "srongaa@superpod.ust.hk:/home/srongaa/stable-weight-decay-regularization/*.py" ./code/'
+alias clauded='claude --dangerously-skip-permissions'
 
 
 ## alias max tex commands
@@ -179,6 +181,9 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Fix Python alias to work properly with conda environments
+unalias python 2>/dev/null || true
+
 
 
 #initial command to run
@@ -193,3 +198,4 @@ export LS_COLORS='di=34:fi=0:ln=36:pi=33:so=35:bd=32;33:cd=32;33:or=31;1;33:mi=3
 
 tmux
 skhd --start-service
+source /opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh
