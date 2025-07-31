@@ -94,7 +94,7 @@ alias ss2='scp "srongaa@superpod.ust.hk:/home/srongaa/stable-weight-decay-regula
 alias ss3='scp "srongaa@superpod.ust.hk:/home/srongaa/stable-weight-decay-regularization/Training_*" ./50epoch/'
 alias ss='ss1 ; ss2; ss3'
 alias ss4='scp "srongaa@superpod.ust.hk:/home/srongaa/stable-weight-decay-regularization/*.py" ./code/'
-alias clauded='claude --dangerously-skip-permissions'
+alias clauded='SHELL=/bin/zsh claude --dangerously-skip-permissions'
 
 
 ## alias max tex commands
@@ -199,3 +199,4 @@ export LS_COLORS='di=34:fi=0:ln=36:pi=33:so=35:bd=32;33:cd=32;33:or=31;1;33:mi=3
 tmux
 skhd --start-service
 source /opt/homebrew/Caskroom/miniconda/base/etc/profile.d/conda.sh
+export PATH="$HOME/bin:$PATH"

@@ -1,0 +1,17 @@
+#!/bin/bash
+# Mock NVCC for development on macOS without NVIDIA GPU
+# This provides basic CUDA compilation simulation
+
+CUDA_HEADERS="/Users/apple/Desktop/dotfiles/.config/nvim/cuda_headers"
+
+if [[ "$1" == "--version" ]]; then
+    echo "nvcc: NVIDIA (R) Cuda compiler driver"
+    echo "Copyright (c) 2005-2024 NVIDIA Corporation"
+    echo "Built on Mock_for_Development"
+    echo "Cuda compilation tools, release 12.6, V12.6.77"
+    echo "Build cuda_12.6.r12.6/compiler.35059454_0"
+    exit 0
+fi
+
+# For IDE/LSP queries, just pass to clang with CUDA headers
+exec clang++ -I"$CUDA_HEADERS" -I"$CUDA_HEADERS/Common" -x cuda --cuda-device-only "$@"

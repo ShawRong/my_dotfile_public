@@ -1,0 +1,30 @@
+CompileFlags:
+  Add: 
+    - -I/Users/apple/.local/include/cuda
+    - -I/Users/apple/.local/include/cuda/Common
+    - -x
+    - c++
+    - -std=c++17
+    - -D__CUDACC__
+    - -D__NVCC__
+    - -D__CUDA_ARCH__=750
+    - -DCUDA_VERSION=12060
+    - -D__device__=
+    - -D__global__=
+    - -D__host__=
+    - -D__constant__=
+    - -D__shared__=
+    - -D__restrict__=
+    - -include
+    - cuda_runtime_api.h
+    - -include 
+    - device_launch_parameters.h
+  Remove: 
+    - -W*
+    - --cuda*
+    - -fcuda*
+
+Diagnostics:
+  Suppress: 
+    - unknown-cuda-version
+    - unknown-warning-option

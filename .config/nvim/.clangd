@@ -1,0 +1,24 @@
+CompileFlags:
+  Add: 
+    - -I/Users/apple/Desktop/blog/ShawRong.github.io/cuda_headers
+    - -I/Users/apple/Desktop/blog/ShawRong.github.io/cuda_headers/Common
+    - -x
+    - cuda
+    - --cuda-device-only
+    - --cuda-gpu-arch=sm_75
+    - -std=c++17
+    - -D__CUDACC__
+    - -D__NVCC__
+    - -D__CUDA_ARCH__=750
+    - -DCUDA_VERSION=12060
+    - -include
+    - cuda_runtime_api.h
+    - -include 
+    - device_launch_parameters.h
+  Remove: 
+    - -W*
+    - -fcuda-*
+
+Diagnostics:
+  Suppress: 
+    - unknown-cuda-version

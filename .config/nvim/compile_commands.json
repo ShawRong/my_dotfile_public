@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/Users/apple/Desktop/dotfiles/.config/nvim",
+    "command": "clang++ -I/Users/apple/Desktop/dotfiles/.config/nvim/cuda_headers -I/Users/apple/Desktop/dotfiles/.config/nvim/cuda_headers/Common -x cuda --cuda-device-only --cuda-gpu-arch=sm_75 -std=c++17 -D__CUDACC__ -D__NVCC__ -D__CUDA_ARCH__=750 -DCUDA_VERSION=12060 -include cuda_runtime_api.h -include device_launch_parameters.h -c test.cu",
+    "file": "test.cu"
+  }
+]
