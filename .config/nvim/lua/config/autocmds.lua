@@ -40,16 +40,21 @@ vim.api.nvim_create_autocmd({"BufEnter", "BufWinEnter", "FileType"}, {
 })
 
 -- Disable LazyVim's auto-wrapping and formatting groups
-pcall(vim.api.nvim_del_augroup_by_name, "lazyvim_wrap_spell")
-pcall(vim.api.nvim_del_augroup_by_name, "lazyvim_format_notify")
-pcall(vim.api.nvim_del_augroup_by_name, "LazyvimFormatNotify")
+vim.api.nvim_create_autocmd("User", {
+  pattern = "LazyVimStarted",
+  callback = function()
+    pcall(vim.api.nvim_del_augroup_by_name, "lazyvim_wrap_spell")
+    pcall(vim.api.nvim_del_augroup_by_name, "lazyvim_format_notify")
+    pcall(vim.api.nvim_del_augroup_by_name, "LazyvimFormatNotify")
+  end,
+})
 
 -- Disable any BufWritePre autocmds that might format
 vim.api.nvim_create_autocmd("BufWritePre", {
   pattern = "*",
   callback = function()
     -- Override any existing BufWritePre formatting
-    return false
+    -- Don't return false as it can cause issues
   end,
   priority = 1000, -- Higher priority to run first
 })

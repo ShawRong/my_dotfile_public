@@ -1,12 +1,14 @@
 return {
+  -- Disable heavy colorscheme plugins
+  { "folke/tokyonight.nvim", enabled = false },
+  { "catppuccin/nvim", enabled = false },
+  { "ellisonleao/gruvbox.nvim", enabled = false },
+  
+  -- Use built-in colorscheme for better performance
   {
-    "folke/tokyonight.nvim",
+    "LazyVim/LazyVim",
     opts = {
-      transparent = true,
-      styles = {
-        sidebars = "transparent",
-        floats = "transparent",
-      },
+      colorscheme = "habamax", -- Fast built-in colorscheme
     },
   },
 }

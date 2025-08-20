@@ -2,9 +2,6 @@ export PATH="/opt/homebrew/bin:$PATH"
 export OLLAMA_HOME="/Volumes/database"
 export PKG_CONFIG_PATH="/opt/homebrew/lib/pkgconfig:$PKG_CONFIG_PATH"
 
-export GOROOT="/usr/local/go"
-export GOBIN="$GOROOT/bin"
-export PATH="$PATH:$GOBIN"
 
 export GOOGLE_CLOUND_PROJECT="69919"
 

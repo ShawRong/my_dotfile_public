@@ -1,7 +1,7 @@
 CompileFlags:
   Add: 
-    - -I/Users/apple/Desktop/blog/ShawRong.github.io/cuda_headers
-    - -I/Users/apple/Desktop/blog/ShawRong.github.io/cuda_headers/Common
+    - -I/Users/apple/Workspace/new_method_2bit_6.7b/cuda_headers
+    - -I/Users/apple/Workspace/new_method_2bit_6.7b/cuda_headers/Common
     - -x
     - cuda
     - --cuda-device-only
