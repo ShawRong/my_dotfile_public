@@ -24,4 +24,4 @@ vim.opt.autoindent = true     -- Copy indent from current line when starting new
 vim.opt.smartindent = true    -- Smart autoindenting for C-like languages
 vim.opt.cindent = true        -- Use C-style indenting
 
-print("✅ Auto line-splitting disabled! Formatting and indenting kept.")
+-- print("✅ Auto line-splitting disabled! Formatting and indenting kept.")

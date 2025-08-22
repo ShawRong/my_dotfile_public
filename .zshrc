@@ -54,7 +54,7 @@ alias lvim="nvim -u ~/.config/nvim/latex.lua"
 alias sourcers="source ~/.zshrc"
 alias vim="nvim"
 alias vscode="code --reuse-window"
-alias todotfile='cd ~/Desktop/dotfiles'
+alias todotfile='cd ~/Workspace/dotfiles'
 
 # yabai
 alias yabai='yabai --start-service'
@@ -69,16 +69,16 @@ alias desktop='cd ~/Desktop'
 alias research='cd ~/Desktop/research/'
 
 #blog
-alias blog='cd ~/Desktop/blog/ShawRong.github.io/content/posts'
-alias bblog='cd ~/Desktop/blog/ShawRong.github.io/'
-alias pushblog="pushd && cd ~/Desktop/blog/ShawRong.github.io && ./upload.sh && popd"
+alias blog='cd ~/Workspace/blog/ShawRong.github.io/content/posts'
+alias bblog='cd ~/Workspace/blog/ShawRong.github.io/'
+alias pushblog="pushd && cd ~/Workspace/blog/ShawRong.github.io && ./upload.sh && popd"
 
 # this is for temporal using, for hkust cse2 lab only.
 alias logincse='ssh msbd5009stu22@csl2wk22.cse.ust.hk'
 alias loginvps='ssh rong@103.200.97.8'
 
-alias sync="~/Desktop/dotfiles/upload.sh & ~/Desktop/dotfiles/sync.sh & source ~/.zshrc & sh ~/.yabairc"
-alias crc="$EDITOR ~/Desktop/dotfiles/.zshrc && sync"
+alias sync="~/Workspace/dotfiles/collect.sh & ~/Workspace/dotfiles/upload.sh & ~/Workspace/dotfiles/sync.sh & source ~/.zshrc & sh ~/.yabairc"
+alias crc="$EDITOR ~/Workspace/dotfiles/.zshrc && sync"
 alias aloha="echo 'Hello, version 0.11'"
 
 alias omp="/opt/homebrew/opt/llvm/bin/clang -g -Wall -fopenmp"

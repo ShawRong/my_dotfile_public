@@ -56,7 +56,6 @@ vim.api.nvim_create_autocmd("BufWritePre", {
     -- Override any existing BufWritePre formatting
     -- Don't return false as it can cause issues
   end,
-  priority = 1000, -- Higher priority to run first
 })
 
 -- Create our own formatting prevention group
